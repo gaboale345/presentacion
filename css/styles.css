@@ -1147,9 +1147,9 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   background: var(--bg-app);
-  padding: 8px 12px;
+  padding: 5px 10px;
   font-weight: 800;
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   border-bottom: 1px solid var(--border-dark);
 }
 
@@ -1166,10 +1166,11 @@ body {
 .gantt-row {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  padding: 6px 12px;
+  padding: 4px 10px;
   align-items: center;
   border-bottom: 1px solid var(--border-light);
-  font-size: 0.78rem;
+  font-size: 0.74rem;
+  line-height: 1.25;
 }
 
 .gantt-row:last-child {
@@ -1187,14 +1188,40 @@ body {
 }
 
 .gantt-bar {
-  height: 22px;
+  height: 18px;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.68rem;
+  font-size: 0.65rem;
   font-weight: 800;
   color: #FFFFFF;
+}
+
+/* Compact Headers Row (Slide 12) */
+.compact-headers-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.compact-header-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.compact-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin: 0;
 }
 
 .gantt-bar.w-100 { width: 100%; }
