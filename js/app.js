@@ -35,9 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "Las 5 Acciones",
     "Responsables",
     "Recursos Necesarios",
-    "Cronograma (3 Meses)",
-    "Indicadores",
-    "Gestión de Riesgos",
+    "Cronograma, Indicadores y Riesgos",
     "Conclusiones y Recomendaciones"
   ];
 
