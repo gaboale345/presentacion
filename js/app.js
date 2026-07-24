@@ -25,20 +25,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // Slide Titles for Modal Overview
   const slideTitles = [
     "Carátula Institucional",
-    "Resumen Ejecutivo",
+    "Conociendo la Empresa",
     "Diagnóstico Interno",
-    "Problema Central #1",
-    "Causas Raíz del Problema",
-    "Consecuencias Operativas",
-    "Cultura (Schein) & Liderazgo",
-    "Propuesta de Mejora (SMART)",
-    "Las 5 Acciones Estratégicas",
-    "Matriz de Responsables",
-    "Recursos Requeridos",
-    "Cronograma (Gantt 3 Meses)",
-    "Cuadro de Mando (KPIs)",
-    "Matriz de Riesgos",
-    "Conclusiones y Cierre"
+    "Problema Principal #1",
+    "Causas del Problema",
+    "Consecuencias",
+    "Cultura & Liderazgo",
+    "Propuesta de Mejora",
+    "Las 5 Acciones",
+    "Responsables",
+    "Recursos Necesarios",
+    "Cronograma (3 Meses)",
+    "Indicadores",
+    "Gestión de Riesgos",
+    "Conclusiones y Recomendaciones"
   ];
 
   // Initialize Header Count
